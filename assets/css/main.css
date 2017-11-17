@@ -22,14 +22,6 @@
 		display: block;
 	}
 
-	img {
-	    border-radius: 50%;
-			height: auto;
-			width: auto;
-			max-width: 200px;
-			max-height: 200px;
-	}
-
 	body {
 		line-height: 1;
 	}
@@ -54,6 +46,14 @@
 
 	body {
 		-webkit-text-size-adjust: none;
+	}
+
+	.imgr {
+			border-radius: 50%;
+			height: auto;
+			width: auto;
+			max-width: 200px;
+			max-height: 200px;
 	}
 
 /* Box Model */
