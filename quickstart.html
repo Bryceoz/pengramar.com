@@ -126,7 +126,7 @@
                                       </div>
                                       <div class="feature feature-3">
                                           <div class="feature__body">
-                                              <p>5. Move the virtual motor to align with the physical motor by moving the marker. Alternatively you can move the physical motor to match the position and rotation of the virtual motor.
+                                              <p>5. Move the physical motor to match the position and rotation of the virtual motor. Alternatively you can move the virtual motor to align with the physical motor by moving the marker.
 </p>
                                           </div>
                                       </div>
@@ -193,6 +193,42 @@ b. Drawing annotations using lines and arrows
                                       </div>
                                   </div>
                               </div>
+                              <div class="row justify-content-between">
+                              <div class="col-md-12">
+                                  <div class="switchable__text">
+                                      <h2><b>Known Issues</b></h2>
+                                      <p class="lead"><b></b>
+                                           Since the version we are providing are still in early development, followings are some bugs and issues we are aware and are currently fixing. We also provide a temporary fix below every issue.
+                                           </p>
+                                           <p>
+                                           <b>Issue</b>: Avatar of either player stops moving<br>
+                                           <b>Solution</b>: We found this issue with one player drops after certain period of time. Unfortunately we don’t have a solution for it yet other than restarting the session
+                                         </p>
+                                        <p>
+                                           <b>Issue</b>: Avatar of either player stops moving<br>
+                                           <b>Solution</b>: We found this issue with one player drops after certain period of time. Unfortunately we don’t have a solution for it yet other than restarting the session
+                                         </p>
+                                         <p>
+                                           <b>Issue</b>: It’s hard to perfectly align the virtual object with real object<br>
+                                           <b>Solution</b>: We are currently developing a more advanced computer vision algorithm to automatically align objects. For currently demo purpose, due to limitation of the hardware, manual alignment with Vuforia is the best way so far but does not reflect product feature in the long run. 
+                                         <p>
+                                           <b>Issue</b>: When you scale down to quite small (2% of original size), you can’t select items on menu on left hand<br>
+                                           <b>Solution</b>: A bug with Unity. Please try not to scale to that small if you wish to use drawing tools.
+                                         </p>
+                                         <p>
+                                           <b>Issue</b>: When second VR person join in the room, even if the second VR person is in same WiFi network as the AR user, he or she still cannot see the video stream from AR user.
+<br>
+                                           <b>Solution</b>: We are developing a better video streaming technology using third paty software to bring a more stable experience.
+                                         </p>
+                                        <p>
+                                           <b>Issue</b>: See black screen when launching VR executable.
+<br>
+                                           <b>Solution</b>: Put the VR headset on. This is because the if proximity sensor of Oculus or Vive detect no one is wearing the headset, it won’t display anything to conserve power.
+                                         </p>
+                                      <br>&nbsp;
+                                  </div>
+                              </div>
+                            </div>
                         </div>
                       </div>
                   </section>
